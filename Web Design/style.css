@@ -1,0 +1,641 @@
+{
+    margin:0;
+    padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body
+{   font-family: Trebuchet MS;
+    font-size: 24px;
+    font-weight: bold;
+    background-image: linear-gradient(to right,  #0068FF,#FFFFFF, #FF8500); 
+ 
+}
+footer
+{
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.top-nav-bar
+{
+    height: 57px;
+    top:0;
+    position: sticky;
+    background: #fff;
+    margin-bottom: 20px;
+    border-bottom: 3px solid orange;
+    z-index: 2;
+}
+.form-control
+{
+    margin-top: 9px;
+    margin-left: 2px;
+    border: 1px solid orange !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+}
+.input-group-text
+{
+    background: orange;
+    border: 1px solid orange !important;
+    margin: 8.5px 10px 3px 0;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
+}
+.search-box
+{  
+    
+    float: right;
+    display: inline-flex;
+    width: 21.8%;
+}
+.cart-item-image
+{
+    width: 24%;
+    height: 100%;
+    border-radius: 10px;
+}
+.fa-search
+{
+    
+}
+
+.menu-bar
+{
+    width: %;
+    height: 57px;
+    float: left;
+}
+
+.menu-bar ul
+{
+    padding-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    float: right;
+}
+.menu-bar ul li
+{
+    
+    display: flex;
+    border-left: 1px solid #fff;
+    list-style-type: none;
+    padding: 15px 35px;
+    padding-right: 0px
+    text-align: center;
+    background-color: orange;
+    cursor: pointer;
+}
+.menu-bar ul li a
+{
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-bar .fas
+{
+    padding-right: 10px;
+    padding-top: 3px;
+    
+}
+.menu-bar .fa
+{
+    padding-right: 10px;
+     padding-top: 4px;
+}
+
+@media only screen and (max-width:980px)
+{
+    
+    .menu-bar ul li a
+    {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+        display:grid;
+    }
+
+    .top-nav-bar
+    {
+        height: 118px;
+        border-bottom: 0;
+        border-bottom: 8px solid orange;
+    }
+    .search-box
+    {
+        width: 95%;
+    }
+    .menu-bar
+    {
+        width: 100%;
+    }
+    .menu-bar ul
+    {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .menu-bar ul li
+    {
+        height: 57px;
+        width: 100%;
+    }
+  
+    /*slider CSS*/
+    
+    
+    .slider
+    {
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 0 10px;
+    }
+}
+ .slider
+    {
+        width: 90%;
+        margin-left: 5%;
+        padding: 0 10px;
+    }
+/*On Sale product CSS*/
+.new-products
+{
+    margin: 50px 0;
+}
+.new-products1
+{
+    margin: 50px 0;
+}
+.title-box
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: orange;
+    color: #fff;
+    width: 180px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.title-box h2
+{
+    font-size: 24px;
+}
+.title-box::after
+{
+    content: '';
+    border-top: 40px solid orange;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 170px;
+}
+
+section-header { 
+     font-family: "Metal Mania"; 
+     font-weight: normal; 
+     color: #333; 
+     text-align: center; 
+     font-size: 2.5em; 
+}  
+ 
+.shop-item-picture 
+{
+    border-radius: 14px;
+}
+.cart-header { 
+     font-weight: bold; 
+     font-size: 1.25em; 
+     color: #333; 
+} 
+ 
+ 
+ .cart-column { 
+     display: flex; 
+     align-items: center; 
+     border-bottom: 1px solid black; 
+     margin-right: 1.5em; 
+    padding-bottom: 10px; 
+    margin-top: 10px; 
+} 
+
+ 
+ .cart-row { 
+     display: flex; 
+ } 
+ 
+ 
+ .cart-item { 
+    width: 45%; 
+text-indent: 6px;
+ } 
+ 
+ 
+ .cart-price { 
+     text-indent: 8px;
+     width: 20%; 
+     font-size: 1.2em; 
+     color: #333; 
+ } 
+ 
+ 
+ .cart-quantity { 
+     text-indent: 8px;
+     width: 35%; 
+ } 
+ 
+ 
+ 
+ 
+ .cart-quantity-input { 
+     
+     height: 34px; 
+     width: 50px; 
+     border-radius: 5px; 
+     border: 1px solid #56CCF2; 
+     background-color: #eee; 
+     color: #333; 
+     padding-left: 8px; 
+     text-align: center; 
+     font-size: 1.2em; 
+     margin-right: 25px; 
+ } 
+ 
+ 
+ .cart-row:last-child { 
+     border-bottom: 1px solid black; 
+ } 
+ 
+ 
+ .cart-row:last-child .cart-column { 
+     border: none; 
+ } 
+ 
+ 
+ .cart-total { 
+     text-align: end; 
+     margin-top: 10px; 
+     margin-right: 10px; 
+ } 
+ 
+ 
+ .cart-total-title { 
+     font-weight: bold; 
+     font-size: 1.5em; 
+     color: black; 
+     margin-right: 20px; 
+ } 
+ 
+ 
+ .cart-total-price { 
+     color: #333; 
+     font-size: 1.1em; 
+ } 
+
+.content-section { 
+    margin: 1em; 
+ } 
+
+
+/*shop-item CSS*/
+.shop-item img
+{
+    width: 100%;
+}
+.overlay-right
+{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top:32%;
+    left: 8%;
+    margin-left: 0;
+    width: 70px;
+}
+.overlay-right .fa
+{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.overlay-right .btn-primary
+{
+    background: black; !important;
+    border: 2px; !important;
+    box-shadow:0px 0px 0px 0px rgba(0,0,0,0.5); !important;
+}
+.overlay-right .btn-secondary
+{
+    background: black; !important;
+    border: 2px; !important;
+    box-shadow:0px 0px 0px 0px rgba(0,0,0,0.5); !important;
+}
+.shop-item .img-top 
+{
+    width: 83%;    
+    display: none;
+        position:absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+.shop-item:hover .img-top
+{ 
+   display: inline;
+}
+.shop-item:hover .overlay-right
+{
+    
+    opacity: 2;
+    margin-left: 0%;
+    transition: 0.5s;
+    
+}
+.reverse
+{
+    display: none;
+}
+.overlay-right .btn btn-secondary back view: hover
+{
+   display: ; 
+    
+}
+/*product-bottom CSS*/
+.product-bottom .fa
+{
+    padding: 3px;
+    margin:-3px;
+    background-color: white;
+    color: orange;
+    font-size: 10px;
+}
+
+.product-bottom .fas
+{
+    padding: 3px;
+    margin:-3px;
+    background-color: white;
+    border-radius: 5px;
+    margin: -6px;
+    color: orange;
+    font-size: 10px;
+}
+
+.product-bottom h3
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-bottom h5
+{
+    font-size:15px;
+    padding-bottom: 10px;
+}
+.carousel 
+{
+    
+    box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.5);
+}
+.carouselExampleIndicators
+{
+    z-index: 1 !important;
+}
+.shop-item-title{
+    display: none;
+}
+.shop-item-price{
+    display: none;
+}
+.shop-item-image{
+    display: none;
+    
+}
+.website-features
+{
+    margin-top: 0px;
+    background: white;
+    color: black;
+    margin-bottom: -2.3%;
+   
+}
+.website-features img
+{
+    width: 40%;
+}
+.feature-text
+{
+    margin-top: 10px;
+    float: left;
+    width: 80%;
+    padding-left: 0px;
+}
+.feature-box
+{
+    padding-top: 20px;
+}
+.footer
+{
+    margin-top: 20px;
+    background: #000;
+    color: #fff;
+    
+}
+.footer h1
+{
+    font-size: 15px;
+    margin: 25px 0;
+}
+.footer p
+{
+    font-size: 12px;
+}
+.copyright
+{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.footer hr
+{
+    margin-top: 10px;
+    background-color: #ccc;
+}
+.footer-image img
+{
+    width: 150px;
+}
+.footer .row .fab
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer .row .fas 
+{
+    padding-left: 20px;
+    font-size: 40px;
+    width: 40px;
+    color: white;
+}
+.website-features .row .fas 
+{
+   padding-right: 20px;
+    font-size: 55px;
+}
+.website-features .row .far 
+{
+   padding-right: 20px;
+    font-size: 55px;
+}
+#RL_Logo{
+    margin-left:  6%;
+    width: 62%;
+}
+#RLCSLogo{
+    width: 24.3%;
+}
+.login-page{
+    width: 360px;
+    padding: 2% 0 0;
+    margin: auto;
+}
+.cart-item-title
+{
+ font-size: 25px; 
+  font-weight: bold;
+}
+.cart-price
+{
+    font-size: 25px; 
+  font-weight: bold;
+}
+.cart-total-price
+{
+   font-size: 40px; 
+  font-weight: bold;   
+}
+.form{
+     border-radius: 18px;
+    position: relative;
+    z-index: 1;
+    background: rgb(47, 47, 47);
+    max-width: 360px;
+    border-top: 0px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    border-radius: 16px;
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    
+    margin-top: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+select
+{
+   
+    border-radius: 16px;
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    
+    margin: 0 0 15px 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    
+}
+
+.form button{
+    margin-top: 30px;
+    border-radius: 20px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #0068FF;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form button:hover,.form button:active{
+    background: #FF8500;
+}
+.container  button:hover,.container btn button:active{
+    background: #FF8500;
+}
+.form .message{
+    margin: 15px 0 0;
+    color: lightblue;
+    font-size: 14px;
+}
+
+.form .message a{
+    color:white;
+    text-decoration: none;
+}
+
+.form .register-form{
+    display: none;
+   
+}
+.form .forgot-form
+{
+    
+}
+.form-form .message{
+    margin: 15px 0 0;
+    color: lightblue;
+    font-size: 14px;
+}
+.map{
+    float: left;
+    height: 60%;
+    width: 60%;
+   margin-right: 100%;
+    border-radius: 18px;
+    margin: 15px;
+    margin-left: 25%;
+  margin-right: 100%;
+}
+sectionContactpage {
+    float:left;
+    border: 20px;
+    height: 96%;
+    width: 50%;
+    padding: 0%;
+    background-color: floralwhite;
+    border-radius: 18px;
+    margin: 15px;
+    margin-left: 20%;
+  margin-right: 100%;
+}
+
